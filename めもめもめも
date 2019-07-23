@@ -1,0 +1,49 @@
+めもめもめも
+全体復習(6/3更新)
+
+基本文法７つ
+・変数
+・配列
+・連想配列
+・条件分岐(if switch文(たくさん条件分岐をするときにオススメ))
+・繰り返し処理(for while foreach(配列))
+・関数
+function 関数名(引数1,引数2){
+  echo ○◯;
+  return 戻したい値;・・・値だけを使いたいときに(後から数字を変えるなどの時に)設定するもの
+}
+
+・スーパーグローバル変数
+$_POST['値']; ・・・ URL上に表示されず、隠して値を送りたい時に使うもの
+$_GET['値']; ・・・URL上に表示させ、値を送りたい時につかうもの
+
+<form action="" method="POST">
+ <input type="text" name="text">
+ <input type="submit" value="送信">
+ </form>
+
+ データ型5つ
+・Int(integer = 整数) 123
+・String(文字列)
+・Boolean(倫理型 true / false)
+・Float(浮動小数点数 .06)
+・Array(配列)
+
+エラー文チートシート
+・syntax error 構文エラー(PHP構文から外れた書き方をしている)
+・Undefine variable 変数が未定義
+・Undefined offset 配列に指定した数字が未定義
+・Undefined index 連想配列に指定したキーの文字列が未定義
+・PDOStatement データベースに関わるプログラミングでミスった時
+
+MySQLの内容
+CREATE(作成)
+READ(取得)
+UPDATE(更新)
+DELETE(削除)
+
+コロン構文・・・HTML文の中にPHP文を埋め込む時に使う
+html > PHP
+<?php if() :?>
+ 処理
+<?php endif ;?>

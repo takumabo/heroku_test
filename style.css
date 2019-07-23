@@ -1,0 +1,139 @@
+/*以下独自のcssを適用しました。*/
+
+
+/*body全体*/
+body {
+  margin: 0;
+  padding:0;
+
+
+}
+
+.container {
+  zindex: 100;
+  background-color: #222;
+background-image: -webkit-gradient(linear, 0 0, 100% 100%,color-stop(.25, black), color-stop(.25, transparent),color-stop(.5, transparent), color-stop(.5, black),color-stop(.75, black), color-stop(.75, transparent),to(transparent));
+-webkit-background-size: 7px 7px;
+}
+/*body全体終わり*/
+
+/*<!-- ヘッダー部分 -->*/
+header {
+
+}
+
+.header {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background: #990000;
+  transition: all 0.5s ease;
+  z-index: 999;
+  height: 60px;
+}
+
+.hidden {
+  background-color: rgba(51,153,255,0);
+  background: none;
+  transition: all 0.5s ease;
+}
+/*<!-- ヘッダー部分終わり -->*/
+
+/*<!-- トップスライダー部分 -->*/
+.carousel img {
+  height: 500px;
+  width: 100%;
+}
+
+.top-color {
+  background-color: #990000;
+  height: 500px;
+  width: 50%;
+  display: inline-block;
+  /*float: right;*/
+}
+
+.top-word  {
+  position: absolute;
+  top: 300px;
+  left:30px;
+  color: #fff;
+}
+
+.top-slider {
+  float:right;
+  width: 50%;
+  height: 500px;
+  display: inline-block;
+  /*float: right;*/
+  box-sizing: border-box;
+}
+
+.top-block {
+  display: block;
+}
+
+
+/*<!-- トップスライダー部分終わり -->*/
+
+/*<!-- オススメ部分 -->*/
+.reco-top {
+  margin-top: 100px;
+  color: #990000;
+  text-align: center;
+  width: 100%;
+  margin-bottom: 50px;
+}
+
+
+/*<!-- オススメ部分終わり -->*/
+
+/*<!-- 仕事部分 -->*/
+.scale-img {
+　width: 250px; /*画像の幅*/
+　height: 175px; /*画像の高さ*/
+　transition-duration: 0.5s; /*変化の時間*/
+}
+.scale-img:hover {
+　transform: scale(1.2,1.2); /*画像の拡大*/
+　cursor: pointer; /*カーソルをポインターにする*/
+}
+.scale-box {
+　width: 250px; /*ボックスの幅*/
+　height: 175px; /*ボックスの高さ*/
+　overflow: hidden; /*画像拡大時にはみ出た部分を隠す*/
+}
+/*<!-- 仕事部分終わり -->*/
+
+/*<!-- プロファイル部分 -->*/
+/*<!-- プロファイル部分終わり -->*/
+
+/*<!-- よくある質問部分 -->*/
+/*<!-- よくある質問部分終わり -->*/
+
+/*<!-- コンタクト部分 -->*/
+#btn {
+  border: 1px solid #990000;
+  background-color: #000;
+  color:#990000;
+  padding: 2px 5px;
+  font-size: 30px;
+}
+
+.send {
+  text-align: center;
+  margin-bottom: 50px;
+}
+/*<!-- コンタクト部分終わり -->*/
+
+/*<!-- フッター部分 -->*/
+footer {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  background-color: black;
+  height: 30px;
+  color: white;
+  text-align: center
+}
+/*<!-- フッター部分終わり -->*/
